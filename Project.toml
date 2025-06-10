@@ -1,0 +1,13 @@
+name = "MyAwesomePackage"
+uuid = "e68a8343-45c4-49a3-a2c7-4912d19ee6b1"
+authors = ["YasBroek <yasmin.van-den-broek@ensta-paris.fr> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
